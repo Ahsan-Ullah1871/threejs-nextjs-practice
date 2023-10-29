@@ -1,36 +1,84 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Three.js and Next.js Practice Project
+
+Welcome to my Three.js and Next.js practice project! This repository is designed
+for learning and experimenting with Three.js within a Next.js application. The
+project is organized into branches, with each branch corresponding to a chapter
+from the ["Discover Three.js"](https://discoverthreejs.com/book/first-steps/)
+book by the author [Lewy Blue](https://www.linkedin.com/in/lewy-blue-30b9b193/).
+
+## Table of Contents
+
+- [Getting Started](#getting-started)
+- [Branches](#branches)
+- [Running the Project](#running-the-project)
+- [Project Structure](#project-structure)
+- [Contributing](#contributing)
+- [License](#license)
 
 ## Getting Started
 
-First, run the development server:
+To get started with this project, make sure you have Node.js and npm (Node
+Package Manager) installed on your system.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. Clone this repository to your local machine:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+      ```bash
+      git clone https://github.com/Ahsan-Ullah187/threejs-nextjs-practice.git
+      ```
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+2. Change your working directory to the project folder:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+      ```bash
+      cd threejs-nextjs-practice
+      ```
 
-## Learn More
+3. Install the project dependencies:
 
-To learn more about Next.js, take a look at the following resources:
+      ```bash
+      npm install
+      ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Branches
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+This project is organized into branches, with each branch corresponding to a
+specific chapter from the "Discover Three.js" book. You can switch between
+branches to practice and learn the concepts presented in the book. Here are some
+of the available branches:
 
-## Deploy on Vercel
+- `chapter-1` - Introduction to Three.js
+- `chapter-2` - ...
+- `chapter-3` - ...
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Each branch will contain the code and examples related to that chapter.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Running the Project
+
+To run the project, use the following commands:
+
+- For development:
+
+     ```bash
+     npm run dev
+     ```
+
+     This will start a development server for your Next.js application.
+
+- For production:
+
+     ```bash
+     npm run build
+     npm start
+     ```
+
+     This will build and start the Next.js application in production mode.
+
+## Project Structure
+
+The project structure is organized as follows:
+
+- `components/` - React components used in the application.
+- `app/` - Next.js pages for routing.
+- `public/` - Publicly accessible assets.
+- `three/` - Three.js specific code and examples.
+
+Happy coding and learning Three.js with Next.js!
