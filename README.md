@@ -1,10 +1,7 @@
 # Three.js and Next.js Practice Project
 
 Welcome to my Three.js and Next.js practice project! This repository is designed
-for learning and experimenting with Three.js within a Next.js application. The
-project is organized into branches, with each branch corresponding to a chapter
-from the ["Discover Three.js"](https://discoverthreejs.com/book/first-steps/)
-book by the author [Lewy Blue](https://www.linkedin.com/in/lewy-blue-30b9b193/).
+for learning and experimenting with Three.js within a Next.js application.
 
 ## Table of Contents
 
@@ -41,15 +38,9 @@ Package Manager) installed on your system.
 ## Branches
 
 This project is organized into branches, with each branch corresponding to a
-specific chapter from the "Discover Three.js" book. You can switch between
-branches to practice and learn the concepts presented in the book. Here are some
-of the available branches:
-
-- `chapter-1` - Introduction to Three.js
-- `chapter-2` - ...
-- `chapter-3` - ...
-
-Each branch will contain the code and examples related to that chapter.
+specific chapter or by specific book or any other type practice (I will write a
+good name fo that). You can switch between branches to practice and learn the
+concepts
 
 ## Running the Project
 
@@ -82,3 +73,4 @@ The project structure is organized as follows:
 - `three/` - Three.js specific code and examples.
 
 Happy coding and learning Three.js with Next.js!
+
